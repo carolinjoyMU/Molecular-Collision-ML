@@ -28,5 +28,5 @@ the combined result in one command:
 ```bash
 bash run_all.sh
 
-python src/combine_results.py results/exc_ortho results/exc_para results/que_ortho results/que_para
+python combine_results.py results/exc_ortho results/exc_para results/que_ortho results/que_para
 ```
