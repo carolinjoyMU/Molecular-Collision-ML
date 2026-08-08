@@ -6,7 +6,7 @@ Plain MLP, 13 input features -> 4 hidden layers of 128 nodes (GELU) -> 1 output
 (log cross section). Trained with AdamW + Huber loss in log-space.
 
 The four subsets (excitation/quenching x ortho-H2/para-H2) are
-trained as separate models. Run all four, then use combine_results.py to pool them into the overall + per-U RRMSE table.
+trained as separate models. Run all four, then use combine_results.py.
 
 Usage:
     python train.py --process excitation --h2_symmetry ortho --out_dir results/exc_ortho
